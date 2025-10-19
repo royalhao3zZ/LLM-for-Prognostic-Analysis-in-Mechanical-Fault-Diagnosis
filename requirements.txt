@@ -1,0 +1,24 @@
+# Basic Python version requirement
+python >= 3.8
+
+# Data processing
+numpy >= 1.21.0
+pandas >= 1.3.0
+openpyxl >= 3.0.9  # For Excel file handling (external knowledge base)
+
+# Signal processing
+pywt >= 1.1.1  # PyWavelets for Continuous Wavelet Transform
+
+# Image processing & visualization
+matplotlib >= 3.5.0
+Pillow >= 8.4.0  # PIL for image handling
+
+# Machine learning & deep learning
+torch >= 2.0.0  # PyTorch framework
+transformers >= 4.30.0  # For CLIP ViT-Base model
+
+# API communication
+requests >= 2.26.0  # For Ollama API calls
+
+# Optional (for better performance)
+accelerate >= 0.20.0  # For faster model loading with transformers
